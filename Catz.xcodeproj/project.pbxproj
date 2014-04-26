@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0654D31909BC97002D3F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0654D21909BC97002D3F6C /* Foundation.framework */; };
+		EE0654D51909BC97002D3F6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0654D41909BC97002D3F6C /* CoreGraphics.framework */; };
+		EE0654D71909BC97002D3F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0654D61909BC97002D3F6C /* UIKit.framework */; };
+		EE0654DD1909BC97002D3F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE0654DB1909BC97002D3F6C /* InfoPlist.strings */; };
+		EE0654DF1909BC97002D3F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0654DE1909BC97002D3F6C /* main.m */; };
+		EE0654E31909BC97002D3F6C /* KHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0654E21909BC97002D3F6C /* KHAppDelegate.m */; };
+		EE0654E61909BC97002D3F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0654E41909BC97002D3F6C /* Main.storyboard */; };
+		EE0654E91909BC97002D3F6C /* KHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0654E81909BC97002D3F6C /* KHViewController.m */; };
+		EE0654EB1909BC97002D3F6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0654EA1909BC97002D3F6C /* Images.xcassets */; };
+		EE0654F21909BC97002D3F6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0654F11909BC97002D3F6C /* XCTest.framework */; };
+		EE0654F31909BC97002D3F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0654D21909BC97002D3F6C /* Foundation.framework */; };
+		EE0654F41909BC97002D3F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0654D61909BC97002D3F6C /* UIKit.framework */; };
+		EE0654FC1909BC98002D3F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE0654FA1909BC98002D3F6C /* InfoPlist.strings */; };
+		EE0654FE1909BC98002D3F6C /* CatzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0654FD1909BC98002D3F6C /* CatzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE0654F51909BC97002D3F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0654C71909BC97002D3F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0654CE1909BC97002D3F6C;
+			remoteInfo = Catz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0654CF1909BC97002D3F6C /* Catz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0654D21909BC97002D3F6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE0654D41909BC97002D3F6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE0654D61909BC97002D3F6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE0654DA1909BC97002D3F6C /* Catz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catz-Info.plist"; sourceTree = "<group>"; };
+		EE0654DC1909BC97002D3F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE0654DE1909BC97002D3F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE0654E01909BC97002D3F6C /* Catz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catz-Prefix.pch"; sourceTree = "<group>"; };
+		EE0654E11909BC97002D3F6C /* KHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAppDelegate.h; sourceTree = "<group>"; };
+		EE0654E21909BC97002D3F6C /* KHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAppDelegate.m; sourceTree = "<group>"; };
+		EE0654E51909BC97002D3F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE0654E71909BC97002D3F6C /* KHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHViewController.h; sourceTree = "<group>"; };
+		EE0654E81909BC97002D3F6C /* KHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHViewController.m; sourceTree = "<group>"; };
+		EE0654EA1909BC97002D3F6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE0654F01909BC97002D3F6C /* CatzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0654F11909BC97002D3F6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE0654F91909BC98002D3F6C /* CatzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatzTests-Info.plist"; sourceTree = "<group>"; };
+		EE0654FB1909BC98002D3F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE0654FD1909BC98002D3F6C /* CatzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0654CC1909BC97002D3F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0654D51909BC97002D3F6C /* CoreGraphics.framework in Frameworks */,
+				EE0654D71909BC97002D3F6C /* UIKit.framework in Frameworks */,
+				EE0654D31909BC97002D3F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0654ED1909BC97002D3F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0654F21909BC97002D3F6C /* XCTest.framework in Frameworks */,
+				EE0654F41909BC97002D3F6C /* UIKit.framework in Frameworks */,
+				EE0654F31909BC97002D3F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0654C61909BC97002D3F6C = {
+			isa = PBXGroup;
+			children = (
+				EE0654D81909BC97002D3F6C /* Catz */,
+				EE0654F71909BC97002D3F6C /* CatzTests */,
+				EE0654D11909BC97002D3F6C /* Frameworks */,
+				EE0654D01909BC97002D3F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0654D01909BC97002D3F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0654CF1909BC97002D3F6C /* Catz.app */,
+				EE0654F01909BC97002D3F6C /* CatzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0654D11909BC97002D3F6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0654D21909BC97002D3F6C /* Foundation.framework */,
+				EE0654D41909BC97002D3F6C /* CoreGraphics.framework */,
+				EE0654D61909BC97002D3F6C /* UIKit.framework */,
+				EE0654F11909BC97002D3F6C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE0654D81909BC97002D3F6C /* Catz */ = {
+			isa = PBXGroup;
+			children = (
+				EE0654E11909BC97002D3F6C /* KHAppDelegate.h */,
+				EE0654E21909BC97002D3F6C /* KHAppDelegate.m */,
+				EE0654E41909BC97002D3F6C /* Main.storyboard */,
+				EE0654E71909BC97002D3F6C /* KHViewController.h */,
+				EE0654E81909BC97002D3F6C /* KHViewController.m */,
+				EE0654EA1909BC97002D3F6C /* Images.xcassets */,
+				EE0654D91909BC97002D3F6C /* Supporting Files */,
+			);
+			path = Catz;
+			sourceTree = "<group>";
+		};
+		EE0654D91909BC97002D3F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE0654DA1909BC97002D3F6C /* Catz-Info.plist */,
+				EE0654DB1909BC97002D3F6C /* InfoPlist.strings */,
+				EE0654DE1909BC97002D3F6C /* main.m */,
+				EE0654E01909BC97002D3F6C /* Catz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE0654F71909BC97002D3F6C /* CatzTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0654FD1909BC98002D3F6C /* CatzTests.m */,
+				EE0654F81909BC98002D3F6C /* Supporting Files */,
+			);
+			path = CatzTests;
+			sourceTree = "<group>";
+		};
+		EE0654F81909BC98002D3F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE0654F91909BC98002D3F6C /* CatzTests-Info.plist */,
+				EE0654FA1909BC98002D3F6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0654CE1909BC97002D3F6C /* Catz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0655011909BC98002D3F6C /* Build configuration list for PBXNativeTarget "Catz" */;
+			buildPhases = (
+				EE0654CB1909BC97002D3F6C /* Sources */,
+				EE0654CC1909BC97002D3F6C /* Frameworks */,
+				EE0654CD1909BC97002D3F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catz;
+			productName = Catz;
+			productReference = EE0654CF1909BC97002D3F6C /* Catz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE0654EF1909BC97002D3F6C /* CatzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0655041909BC98002D3F6C /* Build configuration list for PBXNativeTarget "CatzTests" */;
+			buildPhases = (
+				EE0654EC1909BC97002D3F6C /* Sources */,
+				EE0654ED1909BC97002D3F6C /* Frameworks */,
+				EE0654EE1909BC97002D3F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0654F61909BC97002D3F6C /* PBXTargetDependency */,
+			);
+			name = CatzTests;
+			productName = CatzTests;
+			productReference = EE0654F01909BC97002D3F6C /* CatzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0654C71909BC97002D3F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kris Hyland";
+				TargetAttributes = {
+					EE0654EF1909BC97002D3F6C = {
+						TestTargetID = EE0654CE1909BC97002D3F6C;
+					};
+				};
+			};
+			buildConfigurationList = EE0654CA1909BC97002D3F6C /* Build configuration list for PBXProject "Catz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0654C61909BC97002D3F6C;
+			productRefGroup = EE0654D01909BC97002D3F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0654CE1909BC97002D3F6C /* Catz */,
+				EE0654EF1909BC97002D3F6C /* CatzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0654CD1909BC97002D3F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0654EB1909BC97002D3F6C /* Images.xcassets in Resources */,
+				EE0654DD1909BC97002D3F6C /* InfoPlist.strings in Resources */,
+				EE0654E61909BC97002D3F6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0654EE1909BC97002D3F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0654FC1909BC98002D3F6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0654CB1909BC97002D3F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0654E91909BC97002D3F6C /* KHViewController.m in Sources */,
+				EE0654DF1909BC97002D3F6C /* main.m in Sources */,
+				EE0654E31909BC97002D3F6C /* KHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0654EC1909BC97002D3F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0654FE1909BC98002D3F6C /* CatzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE0654F61909BC97002D3F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0654CE1909BC97002D3F6C /* Catz */;
+			targetProxy = EE0654F51909BC97002D3F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE0654DB1909BC97002D3F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0654DC1909BC97002D3F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE0654E41909BC97002D3F6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0654E51909BC97002D3F6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0654FA1909BC98002D3F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0654FB1909BC98002D3F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE0654FF1909BC98002D3F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE0655001909BC98002D3F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0655021909BC98002D3F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catz/Catz-Prefix.pch";
+				INFOPLIST_FILE = "Catz/Catz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE0655031909BC98002D3F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catz/Catz-Prefix.pch";
+				INFOPLIST_FILE = "Catz/Catz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE0655051909BC98002D3F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catz.app/Catz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catz/Catz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CatzTests/CatzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE0655061909BC98002D3F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catz.app/Catz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catz/Catz-Prefix.pch";
+				INFOPLIST_FILE = "CatzTests/CatzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0654CA1909BC97002D3F6C /* Build configuration list for PBXProject "Catz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0654FF1909BC98002D3F6C /* Debug */,
+				EE0655001909BC98002D3F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0655011909BC98002D3F6C /* Build configuration list for PBXNativeTarget "Catz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0655021909BC98002D3F6C /* Debug */,
+				EE0655031909BC98002D3F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0655041909BC98002D3F6C /* Build configuration list for PBXNativeTarget "CatzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0655051909BC98002D3F6C /* Debug */,
+				EE0655061909BC98002D3F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0654C71909BC97002D3F6C /* Project object */;
+}
